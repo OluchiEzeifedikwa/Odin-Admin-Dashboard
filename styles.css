@@ -2,7 +2,6 @@
 
 
 .container { 
-    --main-bg: red;
     display: inline-grid;
     grid-template: 50px 50px 50px 50px / 50px 50px 50px 50px 50px;
     row-gap: 10px;
@@ -15,8 +14,6 @@
 
 
 .board {
-    
-    
     padding: 20px;
     --main-bg: palevioletred;
 }
@@ -243,7 +240,7 @@ input{
 }
 
 
-select{
+select {
     border-radius: 20px;
     background-color: lightgrey;
     margin-left: 14px;
@@ -256,7 +253,7 @@ select{
     background-color: grey;
 }
 
-.powder{
+.powder {
     margin-top: 40px;
     margin-right: 80px;
 }
